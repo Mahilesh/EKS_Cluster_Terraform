@@ -30,7 +30,7 @@ module "eks" {
   }
 
   eks_managed_node_groups = {
-    vgs_worker_node = {
+    mahilesh_worker_node = {
       min_size     = 1
       max_size     = 2
       desired_size = 1
